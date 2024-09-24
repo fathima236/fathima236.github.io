@@ -1,0 +1,20 @@
+/* Slideshow */
+        .slideshow-container {
+           position: relative;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 50%; /* Make the slideshow container circled */
+    overflow: hidden; /* Ensure the images are clipped to the circular shape */
+}
+        .mySlides {
+            display: none;
+        }
+        .fade {
+            animation-name: fade;
+            animation-duration: 2s;
+        }
+        @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+        

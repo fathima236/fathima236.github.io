@@ -1,0 +1,33 @@
+ /* General Styles */
+        html {
+            scroll-behavior: smooth;
+        }
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    
+            background-color:#FAEBD7; Dark blue background */
+            color: #fff; /* White text */
+</style>
+blockquote {
+    color: #7CFC00; /* Set the color to deep green */
+}
+blockquote > cite {
+    color: #FF4500; /* Set the color to a different color, e.g., orange-red */
+}
+.video-wrapper {
+    flex: 1; /* Each video wrapper takes up equal space */
+    margin-right: 10px; /* Add some space between videos */
+}
+
+.video-description {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.left-video,
+.right-video {
+    border: 1px solid #000; /* Add border to videos */
+}

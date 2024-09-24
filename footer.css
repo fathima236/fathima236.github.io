@@ -1,0 +1,50 @@
+.fact-box {
+    background-color: LightSlateGrey; /* Background color of the FACT box */
+    color: #fff; /* Text color of the FAQ box */
+    padding: 20px; /* Padding around the FAQ content */
+    border-radius: 300px; /* Rounded corners for the FAQ box */
+    margin-top: 20px; /* Margin at the top of the FAQ box */
+    border: 2px solid #fff; /* Border line around the FAQ box */
+}
+.footer {
+    grid-column: 1 / 3; /* Span both columns */
+    grid-row: 4 / 5; /* Start from fourth row */
+    background-color: #cccccc; /* Adjust as needed */
+    text-align: center; /* Center align text in the footer */
+    padding: 10px; /* Add some padding for better appearance */
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background-color: #EE82EE;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+    
